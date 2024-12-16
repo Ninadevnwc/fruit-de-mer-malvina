@@ -14,7 +14,7 @@ services:
       MYSQL_USER: user  # Utilisateur pour accéder à la base de données
       MYSQL_PASSWORD: user_password  # Mot de passe de l'utilisateur
     ports:
-      - "3306:3306"  # Expose le port 3306 pour accéder au serveur MySQL
+      - "3307:3306"  # Expose le port 3306 pour accéder au serveur MySQL
     volumes:
       - ~/.docker/mysql:/var/lib/mysqls
   myadmin:
